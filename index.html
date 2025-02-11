@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./icons8-calculator-32.png">
+    <script src="./script.js" defer></script>
+    <title>Puga | Tip Calculator App</title>
+</head>
+
+<body>
+    <header>
+
+
+    </header>
+    <main>
+        <div class="calculator">
+            <div class="left-side">
+                <div class="input">
+                    <label for="bill-input">Bill</label>
+                    <input id="bill-input" type="number" placeholder="$">
+                </div>
+
+                <div class="tip-types">
+                    <p class="select-tip">Select Tip %</p>
+                    <div class="button-box">
+                        <button class="percent-button five">5%
+                        </button>
+                        <button class="percent-button ten">10%
+                        </button>
+                        <button class="percent-button fifteen">15%
+                        </button>
+                        <button class="percent-button twenty-five">25%
+                        </button>
+                        <button class="percent-button fifty">50%
+                        </button>
+                        <input type="number" class="percent-button custom" placeholder="Custom">
+                    </div>
+                </div>
+
+                <div class="input">
+                    <label for="people-number">Number of People</label>
+                    <input id="people-number" type="number" placeholder="Person">
+
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="display">
+                    <div class="tip-amount">
+                        <p class="name">Tip Amount <span>/ person</span></p>
+                        <p class="display-price">$4.27</p>
+                    </div>
+                    <div class="total">
+                        <p class="name">Total <br /> <span>/ person</span></p>
+                        <p class="display-price">$32.79</p>
+                    </div>
+                </div>
+                <button class="reset">RESET</button>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
