@@ -16,6 +16,7 @@ function reset() {
   totalPrice.innerText = "$0";
   billInput.value = "";
   numberPeople.value = "";
+  customInput.value = "";
 }
 
 customInput.addEventListener("input", () => {

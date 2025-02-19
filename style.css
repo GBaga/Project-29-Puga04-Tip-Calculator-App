@@ -60,6 +60,7 @@ input {
   font-weight: bold;
   line-height: 36px;
   color: #00474b;
+  padding: 12px;
 
   &:focus {
     outline: 3px solid #26c2ae;
@@ -67,6 +68,9 @@ input {
 }
 input::placeholder {
   color: #5e7a7d;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: lighter;
 }
 
 label,
