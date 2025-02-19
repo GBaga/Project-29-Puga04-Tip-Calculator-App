@@ -27,15 +27,15 @@
                 <div class="tip-types">
                     <p class="select-tip">Select Tip %</p>
                     <div class="button-box">
-                        <button class="percent-button five">5%
+                        <button onclick="calculateTip(5)" class="percent-button five">5%
                         </button>
-                        <button class="percent-button ten">10%
+                        <button onclick="calculateTip(10)" class="percent-button ten">10%
                         </button>
-                        <button class="percent-button fifteen">15%
+                        <button onclick="calculateTip(15)" class="percent-button fifteen">15%
                         </button>
-                        <button class="percent-button twenty-five">25%
+                        <button onclick="calculateTip(25)" class="percent-button twenty-five">25%
                         </button>
-                        <button class="percent-button fifty">50%
+                        <button onclick="calculateTip(50)" class="percent-button fifty">50%
                         </button>
                         <input type="number" class="percent-button custom" placeholder="Custom">
                     </div>
@@ -51,14 +51,14 @@
                 <div class="display">
                     <div class="tip-amount">
                         <p class="name">Tip Amount <span>/ person</span></p>
-                        <p class="display-price">$4.27</p>
+                        <p class="display-price amount">$0</p>
                     </div>
                     <div class="total">
                         <p class="name">Total <br /> <span>/ person</span></p>
-                        <p class="display-price">$32.79</p>
+                        <p class="display-price total-price">$0</p>
                     </div>
                 </div>
-                <button class="reset">RESET</button>
+                <button onclick="reset()" class="reset">RESET</button>
             </div>
         </div>
     </main>
